@@ -48,18 +48,6 @@ public class AdminMenu extends AppCompatActivity {
                 finish();
             }
         });
-
-
-
-        musersadminbtn = (LinearLayout) findViewById(R.id.usersadminbtn);
-        musersadminbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(AdminMenu.this,UsersList.class);
-                startActivity(i);
-                finish();
-            }
-        });
     }
 
 }

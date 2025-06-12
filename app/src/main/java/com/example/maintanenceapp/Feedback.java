@@ -62,7 +62,7 @@ public class Feedback extends AppCompatActivity {
             String feedbackid = databaseReference.push().getKey();
             FeedbackData feedbackdata = new FeedbackData(feedbackid,feedbackcomment,userid,email);
             databaseReference.child(feedbackid).setValue(feedbackdata);
-            Toast.makeText(this,"Feedback send successfully",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Feedback submit successfully",Toast.LENGTH_LONG).show();
             startActivity(new Intent(getApplicationContext(),MainActivity.class));
         }else{
             Toast.makeText(this,"Feedback is empty", Toast.LENGTH_LONG).show();

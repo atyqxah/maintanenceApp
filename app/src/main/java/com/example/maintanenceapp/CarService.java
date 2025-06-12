@@ -56,7 +56,6 @@ public class CarService extends AppCompatActivity {
         });
 
         mservicetype = findViewById(R.id.servicetype);
-        total = findViewById(R.id.servicecost);
         mmileage = findViewById(R.id.mileage);
         mcancelserve = findViewById(R.id.resetservebtn);
         mservicebtn = findViewById(R.id.servicebtn);

@@ -90,14 +90,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mappthistorybtn = (LinearLayout) findViewById(R.id.appthistorybtn);
-        mappthistorybtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ApptHistory();
-            }
-        });
-
         mappointmentbtn = (LinearLayout) findViewById(R.id.appointmentbtn);
         mappointmentbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -111,14 +103,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Feedback();
-            }
-        });
-
-        mserviceinfobtn = (LinearLayout) findViewById(R.id.serviceinfobtn);
-        mserviceinfobtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                CarServiceInformation();
             }
         });
 

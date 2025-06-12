@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8AA0F1"
+    android:background="@color/white"
     android:visibility="visible"
     tools:context=".Register">
 
@@ -16,7 +16,6 @@
         android:ems="10"
         android:hint="@string/full_name"
         android:inputType="textPersonName"
-        android:textColor="#0B0A0A"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +31,6 @@
         android:ems="10"
         android:hint="@string/nric"
         android:inputType="number"
-        android:textColor="#0B0A0A"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +46,6 @@
         android:ems="10"
         android:hint="@string/phone_number"
         android:inputType="phone"
-        android:textColor="#0B0A0A"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +61,6 @@
         android:ems="10"
         android:hint="Email Address"
         android:inputType="textEmailAddress"
-        android:textColor="#0B0A0A"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +76,6 @@
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:textColor="#0B0A0A"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,7 +88,6 @@
         android:layout_width="197dp"
         android:layout_height="58dp"
         android:text="@string/register"
-        android:textColor="@color/white"
         android:textSize="24sp"
         app:backgroundTint="#011113"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -159,15 +153,13 @@
             android:id="@+id/Male"
             android:layout_width="159dp"
             android:layout_height="wrap_content"
-            android:text="@string/male"
-            android:textColor="#0B0A0A" />
+            android:text="@string/male" />
 
         <RadioButton
             android:id="@+id/Female"
             android:layout_width="154dp"
             android:layout_height="wrap_content"
-            android:text="@string/female"
-            android:textColor="#0B0A0A" />
+            android:text="@string/female" />
     </RadioGroup>
 
     <androidx.appcompat.widget.Toolbar

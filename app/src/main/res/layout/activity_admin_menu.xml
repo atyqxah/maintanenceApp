@@ -24,7 +24,7 @@
 
         <LinearLayout
             android:id="@+id/usersadminbtn"
-            android:layout_width="300dp"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
@@ -61,7 +61,7 @@
 
         <LinearLayout
             android:id="@+id/appointmentadminbtn"
-            android:layout_width="300dp"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
@@ -98,7 +98,7 @@
 
         <LinearLayout
             android:id="@+id/feedbackadminbtn"
-            android:layout_width="300dp"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">maintanenceApp</string>
+    <string name="app_name">ICARSERVE</string>
     <string name="full_name">Full Name</string>
     <string name="nric">NRIC</string>
     <string name="phone_number">Phone Number</string>
